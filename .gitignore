@@ -1,0 +1,11 @@
+.env
+
+__pycache__/
+*.pyc
+*.sqlite
+yfinance_cache.sqlite
+
+miniconda3/
+.venv/
+env/
+venv/
