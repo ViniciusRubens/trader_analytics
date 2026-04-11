@@ -1,15 +1,15 @@
 .stApp {
     background: linear-gradient(-45deg, #1C1C1C, #000000, #2A2D34, #0F172A) !important;
     background-size: 400% 400% !important;
-    -webkit-animation: deepOrbitAnimation 15s ease infinite !important;
-    animation: deepOrbitAnimation 15s ease infinite !important;
+    -webkit-animation: traderAnimation 15s ease infinite !important;
+    animation: traderAnimation 15s ease infinite !important;
 }
 
 .stApp>header {
     background-color: transparent !important;
 }
 
-@-webkit-keyframes deepOrbitAnimation {
+@-webkit-keyframes traderAnimation {
     0% {
         background-position: 0% 50%;
     }
@@ -23,7 +23,7 @@
     }
 }
 
-@keyframes deepOrbitAnimation {
+@keyframes traderAnimation {
     0% {
         background-position: 0% 50%;
     }

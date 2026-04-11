@@ -11,7 +11,7 @@ load_dotenv()
 
 # Configure the main Streamlit page settings
 st.set_page_config(
-    page_title = "DeepOrbit Analytics", 
+    page_title = "Trader Analytics", 
     page_icon = "📊", 
     layout = "wide" # Required for full-screen columns control
 )
